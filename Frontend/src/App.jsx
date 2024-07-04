@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import { Toaster } from 'react-hot-toast'
 import Body from './components/Body'
-import MovieDialog from './components/movieDialog.jsx'
+import MovieDialog from './components/MovieDialog.jsx'
 
 function App() {
 
