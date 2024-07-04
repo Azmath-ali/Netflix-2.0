@@ -23,6 +23,10 @@ const Body = () => {
         },
         { path : '/search',
         element : <SearchMovie/>
+      },
+      {
+        path: "*",
+        element: <h1>Page not found</h1>
       }
       ])
       
