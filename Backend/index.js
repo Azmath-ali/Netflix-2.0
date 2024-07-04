@@ -24,7 +24,8 @@ app.use(express.json())
 app.use(cookieparser())
 
 const corsOption = {
-    origin : "http://localhost:5173",
+    // origin : "http://localhost:5173",
+    origin : "https://netflix-2-0-1.onrender.com",
     credentials : true
 }
 
